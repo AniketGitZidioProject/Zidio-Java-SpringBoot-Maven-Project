@@ -41,6 +41,7 @@ The backend exposes a REST API for managing jobs, employees, recruiters, applica
 ## ⚙️ Setup & Installation
 ## 1. Clone the Repository
 git clone https://github.com/<your-username>/job_platform.git
+
 cd job_platform
 
 
