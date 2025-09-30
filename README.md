@@ -184,6 +184,7 @@ Here are some key endpoints (all responses are JSON):
 1. Import your endpoints manually into Postman or create a collection.
 2. Use raw JSON in request body where applicable. Example (Register user)
 
+```json
 {
   "username": "testuser",
   "password": "password123",
@@ -192,6 +193,7 @@ Here are some key endpoints (all responses are JSON):
 
 
 3. Check responses in Postman and verify results in your MySQL DB.
+
 
 ## 📂 Project Structure
 
