@@ -185,12 +185,25 @@ Here are some key endpoints (all responses are JSON):
 2. Use raw JSON in request body where applicable. Example (Register user)
 3. Check responses in Postman and verify results in your MySQL DB.
 
-```json
+
 {
   "username": "testuser",
   "password": "password123",
   "email": "testuser@example.com"
 }
+
+## 📂 Project Structure
+
+```text
+src/main/java/com/example/job_platform
+├── controller      # REST controllers (API layer)
+├── dto             # Data Transfer Objects
+├── entity          # JPA entities
+├── enumtype        # Enum definitions (Role, Status, etc.)
+├── repository      # Spring Data JPA repositories
+├── service         # Business logic services
+└── security        # Security, JWT, config
+
 
 
 
