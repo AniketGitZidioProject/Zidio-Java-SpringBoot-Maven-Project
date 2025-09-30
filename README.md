@@ -3,7 +3,7 @@ This is the backend service for the Job Platform application.
 It is built using Spring Boot, Spring Data JPA,Spring Security, Spring Cloud (Eureka + Config), and MySQL
 The backend exposes a REST API for managing jobs, employees, recruiters, applications, subscriptions, notifications, and analytics.
 
-# ⚡ Features
+## ⚡ Features
 + Authentication & Authorization → Role-based access (Admin, Employee, Recruiter) using Spring Security + JWT.
 + CRUD APIs → for Employees, Recruiters, Job Posts, and Applications.
 + Microservices-ready → Uses Spring Cloud Config Server + Eureka Service Discovery.
@@ -13,7 +13,7 @@ The backend exposes a REST API for managing jobs, employees, recruiters, applica
 + Email Notifications → Integrated with Spring Mail.
 
 --
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 + Language → Java 17 (upgradable to 21)
 + **Framework →**
     - Spring Boot Starter Web (REST APIs)
