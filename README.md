@@ -184,7 +184,7 @@ Here are some key endpoints (all responses are JSON):
 1. Import your endpoints manually into Postman or create a collection.
 2. Use raw JSON in request body where applicable. Example (Register user)
 3. Check responses in Postman and verify results in your MySQL DB.
-
+```json```
 
 {
   "username": "testuser",
@@ -194,7 +194,7 @@ Here are some key endpoints (all responses are JSON):
 
 ## 📂 Project Structure
 
-```text
+```text```
 src/main/java/com/example/job_platform
 ├── controller      # REST controllers (API layer)
 ├── dto             # Data Transfer Objects
