@@ -183,6 +183,7 @@ Here are some key endpoints (all responses are JSON):
 
 1. Import your endpoints manually into Postman or create a collection.
 2. Use raw JSON in request body where applicable. Example (Register user)
+3. Check responses in Postman and verify results in your MySQL DB.
 
 ```json
 {
@@ -192,18 +193,6 @@ Here are some key endpoints (all responses are JSON):
 }
 
 
-3. Check responses in Postman and verify results in your MySQL DB.
-
-
-## 📂 Project Structure
-
-src/main/java/com/example/job_platform ├── Controller # REST controllers (API layer)
-├── DTO # Data Transfer Objects
-├── Entity # JPA entities
-├── Enum # Enum definitions (Role, Status, etc.)
-├── Repository # Spring Data JPA repositories
-├── Service # Business logic services
-└── Security # Security, JWT, config
 
 
 
